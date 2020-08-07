@@ -19,10 +19,14 @@ the name of the constructor similar to that of the class.
 you now do not have to put your parameters in a particular order since they are now named.
 
 (d)'${quote.text}' we need '$' when we are outputting a variable into a string
-and '${object.prop}' and curly braces and a dot when outputting into an object.
+and '${object.prop}' and curly braces and a dot when outputting into an object.This only happens whe
+we are outputting inside a string.
 
-(e)It is very good practice to prototype the  List<Quote> or List<String> it helps you enforce
-strict types and ensures lesser mistakes from your code.
+(e)It is very good practice to prototype a return type i.e the  List<Quote> or List<String> it helps you enforce
+strict types and ensures lesser mistakes from your code.The return type may also be a Widget.
+
+(f)Padding refers to the space in the inside of an element whereas edge insets refers to the distance from the app
+main window.
 
 ```
 
