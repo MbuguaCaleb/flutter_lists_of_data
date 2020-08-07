@@ -28,6 +28,14 @@ strict types and ensures lesser mistakes from your code.The return type may also
 (f)Padding refers to the space in the inside of an element whereas edge insets refers to the distance from the app
 main window.
 
+(g)There is a shortcut to create a flutter widget easily from a function via flutter outline.
+
+(h)prefix final can enable me to pass data to the stateless widget for the very final time.It is good practice to have
+the name of the constructor equals to the className.
+
+(i)I may now make the widgets as components very similar to what happens in react.And then import them to the main file.
+
+
 ```
 
 **Notes by**
