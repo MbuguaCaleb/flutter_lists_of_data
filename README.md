@@ -38,6 +38,37 @@ the name of the constructor equals to the className.
 
 ```
 
+**Widget LifeCycle Methods**
+```
+(a)Stateless Widget.
+
+In a stateless widget the state does not change over time.
+The build function runs only once.
+
+(b)Stateful Widget
+
+State can change overtime.
+SetState() triggers the build function.It is very similar to react hooks namely the useState() and useEffect().
+
+There are other lifecycle methods in a Stateful Widget.
+
+(a)InitState()
+
+It is called only once when the widget is created.
+It helps subscribe to streams or any object that could change our widget data.
+
+(b)Build()
+Builds the Widget tree.
+A build is triggered every time we use setState()
+
+(c)Dispose()
+-It is triggered when the widget /state object is removed.
+
+
+```
+
+
+
 **Notes by**
 ```
 Mbugua Caleb
