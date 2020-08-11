@@ -8,8 +8,8 @@ class QuoteCard extends StatelessWidget {
   This is what the prefix upfront means
    */
   final Quote quote;
-
-  QuoteCard({this.quote});
+  final Function delete;
+  QuoteCard({this.quote, this.delete()});
 
   @override
   Widget build(BuildContext context) {
@@ -34,6 +34,13 @@ class QuoteCard extends StatelessWidget {
                   fontSize: 14.0,
                   color: Colors.grey[800]
               ),
+            ),
+            SizedBox(height: 8.0),
+            FlatButton.icon(
+              /*calling the delete function */
+                onPressed:delete,
+                icon: Icon(Icons.delete),
+                label: Text('delete quote')
             )
           ],
         ),

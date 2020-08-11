@@ -63,7 +63,15 @@ A build is triggered every time we use setState()
 
 (c)Dispose()
 -It is triggered when the widget /state object is removed.
+(d) Components take in state and props..a prop can be a function  eg a function that deletes
+the state where the state has not been ..i.e the state is at the component level.
 
+(In the same way that i am passing data to a component(class) or a widget in flutter that is the
+exact same way i can pass a function and call it to the progressive component.
+
+This is how i can pass functions as arguments into other widgets.
+
+(e)Flutter is a strict programming language we first declare the type.
 
 ```
 
